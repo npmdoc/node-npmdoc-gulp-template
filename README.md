@@ -1,9 +1,14 @@
-# api documentation for  [gulp-template (v4.0.0)](https://github.com/sindresorhus/gulp-template#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-template)
+# npmdoc-gulp-template
+
+#### api documentation for  [gulp-template (v4.0.0)](https://github.com/sindresorhus/gulp-template#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-template)
+
 #### Render/precompile Lo-Dash/Underscore templates
 
-[![NPM](https://nodei.co/npm/gulp-template.png?downloads=true)](https://www.npmjs.com/package/gulp-template)
+[![NPM](https://nodei.co/npm/gulp-template.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-template)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-template/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-template_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-template/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-template/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-template/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-template/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-template/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-template/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Sindre Sorhus",
-        "email": "sindresorhus@gmail.com",
         "url": "sindresorhus.com"
     },
     "bugs": {
@@ -62,13 +66,11 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "gulp-template",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/sindresorhus/gulp-template.git"
@@ -78,44 +80,6 @@
     },
     "version": "4.0.0"
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-template](#apidoc.module.gulp-template)
-1.  [function <span class="apidocSignatureSpan">gulp-template.</span>precompile (options)](#apidoc.element.gulp-template.precompile)
-
-
-
-# <a name="apidoc.module.gulp-template"></a>[module gulp-template](#apidoc.module.gulp-template)
-
-#### <a name="apidoc.element.gulp-template.precompile"></a>[function <span class="apidocSignatureSpan">gulp-template.</span>precompile (options)](#apidoc.element.gulp-template.precompile)
-- description and source-code
-```javascript
-precompile = function (options) {
-	return compile(options);
-}
-```
-- example usage
-```shell
-...
-
-## API
-
-### template(data, [options])
-
-Render a template using the provided 'data'.
-
-### template.precompile([options])
-
-Precompile a template for rendering dynamically at a later time.
-
-#### data
-
-Type: 'object'
-...
 ```
 
 
